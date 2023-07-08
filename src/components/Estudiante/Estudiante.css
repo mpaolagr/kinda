@@ -1,0 +1,33 @@
+
+ a{
+    text-decoration: none;
+    color: #00263D !important;
+  
+  }
+  .esinferior {
+    margin-bottom: 20px; /* Ajusta el valor según tus necesidades */
+  }
+  .esinferior h4 {
+    display: inline;
+    margin: 0; /* Para eliminar el margen predeterminado del h4 */
+  }
+
+  .icono-svg svg {
+    width: 2rem;
+    height: 2rem;
+  }
+  .contenido{
+    padding: 2rem !important;
+
+  }
+  .bold-text h4 {
+    font-weight: 800;
+    font-size: 2.6vh;
+}
+
+.estudiante .card-body{
+max-height: 16rem;
+}
+.estudiante .text{
+    height: 6rem;
+}

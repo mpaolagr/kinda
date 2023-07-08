@@ -1,0 +1,25 @@
+.homepage{
+  background-color: rgb(255, 255, 255);
+
+}
+
+.custom-col-md-1,
+.custom-col-lg-1 {
+  flex: 0 0 5.333333%;
+  max-width: 5.333333% !important;
+}
+
+.custom-offset-md-1,
+.custom-offset-lg-1 {
+  margin-left: 5.333333%;
+}
+@media (max-width: 480px) {
+  .sidebar{
+    display: none;
+  }
+
+}
+
+nav a.active{
+  color: green;
+}

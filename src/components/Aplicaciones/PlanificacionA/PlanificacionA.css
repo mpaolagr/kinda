@@ -1,0 +1,74 @@
+.titular button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 60px;
+    gap: 5px;  
+    width: 280px;
+    height: 40px;
+    background: #C6AA76;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    color: white;
+    margin: 0;
+    border: none;
+}
+.esinferior {
+    margin-bottom: 20px; /* Ajusta el valor según tus necesidades */
+  }
+
+  .essuperior {
+    margin-top: 2rem !important; /* Ajusta el valor según tus necesidades */
+  }
+
+  .table th {
+  background-color: #00263D !important;
+  color: white !important;
+}
+
+/* Estilos para la tabla */
+.table td {
+  border: 1px solid #d4d4d4;
+  padding: 8px;
+}
+
+.card-body .iconamarillo{
+  font-size: 1.2rem;
+  padding: 0.4rem;
+  color: #C6AA76;
+}
+
+.cards .iconamarillo{
+  font-size: 1.2rem;
+  padding: 0.4rem;
+  color: #C6AA76;
+  margin-left: 1rem;
+}
+.profesores{
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
+.profesores .svg-img{
+  max-width: 3rem;
+}
+.profesores .iconamarillo{
+  font-size: 1.5vh;
+  /* padding: 0.4rem; */
+  color: #C6AA76;
+  /* margin-left: 1rem;*/
+}
+
+.planificaciona .contenido{
+  padding: 1rem 3rem !important;
+
+}
+.planificaciona h4{
+  font-size: 2.8vh;
+}
+
+.planificaciona .text{
+  height: 6rem;
+}

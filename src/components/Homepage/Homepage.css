@@ -1,0 +1,115 @@
+.homepage-container {
+ 
+  padding: 4vh 8vh;
+  color: #00263D;
+  min-height: 92vh;
+}
+
+.homepage-content {
+  height: 100%;
+}
+
+.titular {
+  background: linear-gradient(
+      to right,
+      rgba(112, 111, 111, 0.233),
+      rgba(114, 114, 114, 0.281)
+    )
+    bottom;
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+  padding-bottom: 2vh;
+}
+.titular img{
+  max-width: 3rem;
+    margin-right: 1rem;
+}
+
+.cards {
+  padding: 4vh 2vh;
+  background-color: #fafafa;
+  font-weight: 700;
+ /* font-size: 13px;*/
+}
+
+.card {
+  --bs-card-border-color: rgb(0 0 0 / 7%) !important;
+}
+.card img {
+  max-width: 3.5rem;
+}
+
+.card a{
+  text-decoration: none;
+  color: #8d734a !important;
+
+}
+
+.icon {
+  font-size: 1.2rem;
+  padding: 0.4rem;
+}
+
+
+.icon-badge {
+  position: relative;
+}
+
+.icon-badge::after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 5px;
+  width: 6px;
+  height: 6px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.panel3 {
+  .icon {
+    font-size: 2.4rem;
+    padding: 0rem;
+    
+  }
+  font-size: 14px;
+  padding-left: 5em !important;}
+
+.txtmed {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.txtmed {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.txts{
+font-size: 1rem;
+}
+
+.panel3 img {
+  max-width: 1.4rem;
+}
+.panel3 a {
+  text-decoration: none;
+  color: #00263D !important;
+
+}
+
+@media (max-width: 480px) {
+  .panel3{
+    display: none;
+  }
+  .homepage-container {
+
+    padding: 2vh 2vh;
+ 
+}
+
+
+}
+
+.home .card-body {
+  max-height: 18rem;
+}

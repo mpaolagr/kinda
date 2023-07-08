@@ -1,0 +1,64 @@
+.card-body .iconamarillo{
+    font-size: 1.2rem;
+    padding: 0.4rem;
+    color: #C6AA76;
+  }
+
+  .fontxs{
+    font-size: 1.7vh;
+  }
+  
+  .profesor .card-body .iconamarillo{
+    font-size: 1.2rem;
+    padding: 0.4rem;
+    color: #C6AA76;
+  }
+  
+  .profesor .cards .iconamarillo{
+    font-size: 1.2rem;
+    padding: 0.4rem;
+    color: #C6AA76;
+    margin-left: -8px;
+  }
+
+  .profesor .contenido {
+    padding: 1.5rem !important;
+}
+
+.profesor .card-body {
+    max-height: 9.5rem;
+}
+
+
+.perfilprofesor .card-body .iconamarillo{
+    font-size: 1.2rem;
+    padding: 0.4rem;
+    color: #8D734A;
+  }
+  
+  .perfilprofesor .cards .iconamarillo{
+    font-size: 1.2rem;
+    padding: 0.4rem;
+    color: #8D734A;
+    margin-left: -8px;
+  }
+
+  .btnpp{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 60px;
+        gap: 5px;  
+        width: 280px;
+        height: 40px;
+        background: #C6AA76;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        margin: 0;
+        border: none;
+  }
+  .btnpp a{
+    color:#fff !important;
+  }

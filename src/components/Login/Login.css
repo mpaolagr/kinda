@@ -1,0 +1,257 @@
+.login-child {
+  position: absolute;
+  top: -10vh;
+  left: -9vh;
+  width: 46vh;
+  height: 90vh;
+  opacity: 0.6;
+}
+.login-inner,
+.login-item,
+.vector-icon {
+  position: absolute;
+  top: 50vh;
+  left: 174vh;
+  width: 42vh;
+  height: 48vh;
+  opacity: 0.6;
+}
+.login-inner,
+.vector-icon {
+  top: 10vh;
+  left: -3vh;
+  width: 23vh;
+  height: 46vh;
+}
+.vector-icon {
+  top: 59vh;
+  left: 174vh;
+  width: 50vh;
+  height: 50vh;
+}
+
+.login {
+  position: relative;
+  background-color: #00263d;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--common-body-small-regular-size);
+  color: white;
+  font-family: var(--common-body-small-regular);
+}
+
+@media (min-width: 768px) {
+  .logo1 {
+    max-width: 45vh;
+    padding: 1rem;
+  }
+  .logo2 {
+    max-width: 40vh;
+    padding: 1rem;
+  }
+  .formulario2 input {
+    font-size: 2rem;
+    width: 10vh;
+    height: 7vh;
+    border: none;
+    color: white;
+    background-color: #00263d;
+    margin-left: 1vh;
+    border-bottom: 1px solid #757575;
+    text-align: center;
+  }
+  .formulario2 {
+    padding-top: 3rem;
+  }
+  .formulario2 .back svg {
+    margin-right: 1rem;
+    font-size: 3vh;
+  }
+  .padd {
+    padding: 0vh 3vh;
+  }
+  .formulario2 button {
+    width: 100%;
+  }
+  .footer-text {
+    font-size: 2vh;
+}
+}
+
+@media (max-width: 767px) {
+  .login-child {
+    position: absolute;
+    top: -11vh;
+    left: -9vh;
+    width: 25vh;
+    height: 62vh;
+    opacity: 0.6;
+  }
+  .login-inner,
+  .login-item,
+  .vector-icon {
+    position: absolute;
+    top: 74vh;
+    left: 31vh;
+    width: 26vh;
+    height: 20vh;
+    opacity: 0.6;
+  }
+  .login-inner,
+  .vector-icon {
+    top: -4vh;
+    left: -2vh;
+    width: 10vh;
+    height: 43vh;
+  }
+  .vector-icon {
+    top: 60vh;
+    left: 37vh;
+    width: 10vh;
+    height: 40vh;
+  }
+
+  .botn6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  .logo1 {
+    max-width: 26vh;
+    padding-bottom: 1rem;
+  }
+  .logo2 {
+    max-width: 21vh;
+  }
+  .formulario2 input {
+    font-size: 2rem;
+    width: 5vh;
+    border: none;
+    color: white;
+    background-color: #00263d;
+    margin-left: 1vh;
+    border-bottom: 1px solid #757575;
+    text-align: center;
+  }
+  .formulario2 button {
+    width: 100%;
+  }
+  .formulario2 button a {
+    width: 100%;
+  }
+  .footer-text {
+    font-size: 1.6vh;
+}
+}
+.botn6 {
+  display: flex;
+  letter-spacing: 0.03em;
+  line-height: 133%;
+  color: #c7c7c7;
+  padding: 1rem;
+}
+
+.formulario {
+  color: white;
+  padding-top: 3rem;
+}
+
+.formulario input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  width: 20vh !important;
+  border: none;
+  color: white;
+  background-color: #00263d;
+  border-bottom: 1px solid #757575;
+}
+
+.label-container {
+  display: flex;
+  align-items: center;
+}
+
+.question-icon {
+  margin-left: auto;
+  cursor: pointer;
+}
+.formulario button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 60px;
+  gap: 5px;
+  width: 100%;
+  height: 3em;
+  background: #c6aa76;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  color: white;
+  margin: 0;
+  border: none;
+}
+
+.formulario button a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.formulario2 button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  height: 3em;
+  background: #c6aa76;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  color: white;
+  margin: 0;
+  border: none;
+}
+
+.formulario2 button a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.formulario2 .back {
+  color: #c6aa76 !important;
+  text-align: center;
+  padding-right: 0vh;
+}
+
+.login .footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: #00263d00;
+
+  .footer-text {
+    color: white;
+    font-weight: 400;
+  }
+
+  .social-icons {
+    display: inline-block;
+    margin-left: 2vh;
+  }
+
+  .social-icons .icon {
+    color: white;
+    margin-right: 10px;
+    font-size: 2.3em;
+  }
+}

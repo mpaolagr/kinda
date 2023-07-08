@@ -1,0 +1,32 @@
+.adjunto{
+    height: none;
+  }
+.adjunto::-webkit-file-upload-button {
+    background-color: #08243c;
+    color: white;
+    padding: 1rem;
+  
+}
+.redactarboton button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 60px;
+    gap: 5px;
+    width: 200px;
+    margin-left: 1rem !important;
+    height: 40px;
+    background: #C6AA76;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    color: white !important;
+    margin: 0;
+    border: none;
+}
+
+.redactarboton a{
+    color: white !important;
+    text-decoration: none;
+}

@@ -1,0 +1,39 @@
+.form-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group {
+    position: relative;
+  }
+  
+  .input-group input.form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-right: 40px;
+  }
+  
+  .input-group .input-group-text {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .input-group .input-group-text svg {
+    width: 20px;
+    height: 20px;
+  }
+  .esinferior {
+    margin-bottom: 20px; /* Ajusta el valor según tus necesidades */
+  }
+
+  .essuperior {
+    margin-top: 2rem !important; /* Ajusta el valor según tus necesidades */
+  }
+
+  .adjunto{
+    background-color: #e6eaf27a;
+    border: 2px dashed #37404a63;
+    padding: 1rem;
+  }

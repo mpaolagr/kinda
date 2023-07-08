@@ -1,0 +1,107 @@
+.titular button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 60px;
+    gap: 5px;  
+    width: 280px;
+    height: 40px;
+    background: #C6AA76;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    color: white;
+    margin: 0;
+    border: none;
+}
+.esinferior {
+    margin-bottom: 20px; /* Ajusta el valor según tus necesidades */
+  }
+
+  .essuperior {
+    margin-top: 2rem !important; /* Ajusta el valor según tus necesidades */
+  }
+
+.card-body .iconamarillo{
+  font-size: 1.2rem;
+  padding: 0.4rem;
+  color: #C6AA76;
+}
+
+.cards .iconamarillo{
+  font-size: 1.2rem;
+  padding: 0.4rem;
+  color: #C6AA76;
+  margin-left: 1rem;
+}
+.profesores{
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
+.profesores .svg-img{
+  max-width: 3rem;
+}
+.profesores .iconamarillo{
+  font-size: 1.5vh;
+  /* padding: 0.4rem; */
+  color: #C6AA76;
+  /* margin-left: 1rem;*/
+}
+
+
+.metasap .cards {
+  padding: 3vh 3vh;
+  background-color: #fafafa;
+  font-weight: 700;
+  /* font-size: 13px; */
+}
+
+.metasap .card {
+  padding: 0vh;
+  margin: 1vh;
+}/*
+.metasap .tit{
+  background-color: #00263D;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}*/
+.metasap svg{
+  margin-right: 1vh;
+}
+
+.planestu .card-header {
+  color: white;
+  background-color: #212b36;
+}
+
+.planestu .nav-tabs .nav-link.active {
+  color: #fff;
+  background-color: #212b36;
+  border-top-left-radius: 0vh; 
+ border-top-right-radius: 0vh;
+}
+
+.planestu .nav-link {
+  color: #212b36;
+  background-color: #fafafa;
+  padding: 1rem 1rem;
+  width: auto;
+  margin: 0.5vh;
+}
+
+.planestu .nav-tabs {
+   border-bottom: 0vh;
+}
+
+.planestu .table th {
+  background-color: #c6aa766e !important ;
+  color: #8D734A !important;
+}
+
+.planestu .table-striped>tbody>tr:nth-of-type(odd)>* {
+  --bs-table-color-type: var(--bs-table-striped-color);
+  --bs-table-bg-type: #fff;
+}

@@ -1,0 +1,47 @@
+/* CustomCalendarStyles.css */
+
+/* Cambiar el color de fondo del calendario */
+.rbc-calendar {
+  background-color: #ffffff !important;
+}
+
+/* Cambiar el color del título del evento */
+.rbc-event {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Cambiar el color de fondo del encabezado de la columna */
+.rbc-header {
+  color: white;
+  /*padding: 0.8vh 0.5vh !important;*/
+  background-color: #00263D;
+}
+
+.rbc-button-link {
+  color: #8D734A ;
+}
+
+/* Cambiar el color de texto del título del evento */
+.rbc-event-content {
+  color: #fff;
+}
+
+/* Cambiar el color de fondo de la celda de fecha seleccionada */
+.rbc-selected-cell {
+  background-color: #e2e3e5;
+}
+
+/* Cambiar el color de fondo del día actual */
+.rbc-today {
+  background-color: #e6eaf299 !important;
+  font-weight: bold;
+}
+
+/* Cambiar el color de los números de los días que no pertenecen al mes */
+.rbc-off-range {
+  color: #bbbbbb93 !important;
+}
+.rbc-off-range-bg {
+  background: #fff;
+}

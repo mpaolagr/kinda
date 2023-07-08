@@ -1,0 +1,19 @@
+.perfilusuario .text{
+  min-height: 18rem;
+}
+.perfilusuario .iconT {
+  font-size: 2rem;
+  color: #8D734A;
+}
+.perfilusuario .tdo {
+  color: #8D734A;
+}
+.editarus .form input {
+  font-size: 2vh;
+  padding: 1vh 1vh;
+  width: 20vh !important;
+  border: none;
+  color: #00263D;
+  background-color: #00263d00;
+  border-bottom: 1px solid #757575;
+}
